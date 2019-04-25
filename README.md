@@ -25,7 +25,7 @@ I load a plain HTML document (<!DOCTYPE html>) and in the <head> secition I load
 
 Download the Jasmine framwork from [Jasmine](https://cdnjs.com/libraries/jasmine) website. It is important that the Jasmine spripts load in the correct order!
 
-1) [JavaScript](https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.4.0/jasmine.js)
+1) [Java Script](https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.4.0/jasmine.js)
 2) [Jasmine HTML](https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.4.0/jasmine-html.js)
 3) [Jasmine Boot](https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.4.0/jasmine-html.js)
 
@@ -33,24 +33,24 @@ Download the Jasmine framwork from [Jasmine](https://cdnjs.com/libraries/jasmine
 
 When I have loaded the Jasmine script I load my scripts!
 
-    1) My .js file from the Scripts folder.
-    2) My .js file from the Specs folder.
+1) My .js file from the Scripts folder.
+2) My .js file from the Specs folder.
 
 #### Describe the test
 
-I want to test a calculator
-    I am going to test the additional function
-        I want to get the result of 42
-        I expect the result of 20 + 22 to be 42
+    I want to test a calculator
+        I am going to test the additional function
+            I want to get the result of 42
+            I expect the result of 20 + 22 to be 42
 
-This is the same in Jasmine:
-describe("Calculator", function() {
-    describe("Addition tests", function() {
-        it("should return 42", function() {
-            expect(addition(20, 22)).toBe(42);
+    This is the same in Jasmine:
+    describe("Calculator", function() {
+        describe("Addition tests", function() {
+            it("should return 42", function() {
+                expect(addition(20, 22)).toBe(42);
+            });
         });
     });
-});
 
 #### Red-Green-Refactor
 
