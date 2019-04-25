@@ -17,7 +17,24 @@ Testing our JavaScript code, being able to create a suite of tests, and being ab
 
 ### How to use Jasmine
 
-Download the Jasmine framwork from [Jasmine](https://cdnjs.com/libraries/jasmine)
+#### HTML document
+
+I load a plain HTML document (<!DOCTYPE html>) and in the <head> secition I load all script frameworks from Jasmine and my .js files.
+
+#### Jasmine script
+
+Download the Jasmine framwork from [Jasmine](https://cdnjs.com/libraries/jasmine) website. It is important that the Jasmine spripts load in the correct order!
+
+    1) [Jasmine JavaScript](https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.4.0/jasmine.js)
+    2) [Jasmine HTML](https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.4.0/jasmine-html.js)
+    3) [Jasmine Boot](https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.4.0/jasmine-html.js)
+
+#### My Script
+
+When I have loaded the Jasmine script I load my scripts!
+
+    1) My .js file from the Scripts folder.
+    2) My .js file from the Specs folder.
 
 #### Describe the test
 
