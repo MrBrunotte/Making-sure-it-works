@@ -25,9 +25,9 @@ I load a plain HTML document (<!DOCTYPE html>) and in the <head> secition I load
 
 Download the Jasmine framwork from [Jasmine](https://cdnjs.com/libraries/jasmine) website. It is important that the Jasmine spripts load in the correct order!
 
-    1) [Jasmine JavaScript](https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.4.0/jasmine.js)
-    2) [Jasmine HTML](https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.4.0/jasmine-html.js)
-    3) [Jasmine Boot](https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.4.0/jasmine-html.js)
+1) [JavaScript](https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.4.0/jasmine.js)
+2) [Jasmine HTML](https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.4.0/jasmine-html.js)
+3) [Jasmine Boot](https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.4.0/jasmine-html.js)
 
 #### My Script
 
