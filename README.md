@@ -38,12 +38,15 @@ When I have loaded the Jasmine script I load my scripts!
 
 #### Describe the test
 
+I start describing what I wnat to test in words:
+
     I want to test a calculator
         I am going to test the additional function
             I want to get the result of 42
             I expect the result of 20 + 22 to be 42
 
-    This is the same in Jasmine:
+I then do the same in Jasmine:
+
     describe("Calculator", function() {
         describe("Addition tests", function() {
             it("should return 42", function() {
