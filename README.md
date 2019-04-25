@@ -15,6 +15,10 @@ Jasmine testing framework - a free open-source testing framework for testing Jav
 
 Testing our JavaScript code, being able to create a suite of tests, and being able to safely refactor our code.
 
+### How to use Jasmine
+
+Download the Jasmine framwork from [Jasmine](https://cdnjs.com/libraries/jasmine)
+
 #### Describe the test
 
 I want to test a calculator
